@@ -36,6 +36,13 @@
     width:145px;
 }
 #display{
-    width: 95%;
+    text-align: right;
+    flex:1;
+    font-size: 45px;
     box-shadow: none;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
 }
